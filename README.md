@@ -1,7 +1,7 @@
 # flink-kafka-elk-twitter-streaming
 This is little project that i've used to test Flink, Kafka, ELK
 
-##What it uses
+## What it uses
 - Flink 1.13.6
 - Kafka 2.8.1
 - ELK   7.13.2
@@ -18,7 +18,7 @@ This is little project that i've used to test Flink, Kafka, ELK
     
     twitter.bearer.token=<your key from twitter>
 ```
-You need to create a Twitter developer application and get bearer token from your application's settings page
+You need to create a Twitter developer application (https://developer.twitter.com) and get bearer token from your application's settings page
 
 There are 2 ways to run this application, Intellij is by far the easiest that to run it
 
@@ -37,5 +37,5 @@ There are 2 ways to run this application, Intellij is by far the easiest that to
 - show data in Kibana
 - ![https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/05_kibana_discover.png?raw=true](https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/05_kibana_discover.png?raw=true)
 - ![https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/06_kibana_dashboard.png?raw=true](https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/06_kibana_dashboard.png?raw=true)
-- 
+
 
