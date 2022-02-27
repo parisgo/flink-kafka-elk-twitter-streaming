@@ -6,7 +6,7 @@ This is little project that i've used to test Flink, Kafka, ELK
 - Kafka 2.8.1
 - ELK   7.13.2
 - Twitter API v2
-- Docker
+- Docker / Docker-compose
 
 ## How to run the application
 
@@ -35,7 +35,7 @@ There are 2 ways to run this application, Intellij is by far the easiest that to
  ![https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/04_kafka.png?raw=true](https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/04_kafka.png?raw=true)
 
 - show data in Kibana
-- ![https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/05_kibana_discover.png?raw=true](https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/05_kibana_discover.png?raw=true)
-- ![https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/06_kibana_dashboard.png?raw=true](https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/06_kibana_dashboard.png?raw=true)
+  ![https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/05_kibana_discover.png?raw=true](https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/05_kibana_discover.png?raw=true)
+  ![https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/06_kibana_dashboard.png?raw=true](https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/06_kibana_dashboard.png?raw=true)
 
 
