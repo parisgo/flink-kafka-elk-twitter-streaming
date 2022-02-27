@@ -19,7 +19,7 @@ import org.paris8.twitter.read.fun.*;
 import java.time.Duration;
 import java.util.Properties;
 
-public class Application {
+public class ApplicationReader {
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.setParallelism(1);

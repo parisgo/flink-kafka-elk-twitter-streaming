@@ -32,6 +32,8 @@ public class TwitterSourceV2 extends RichSourceFunction<String> {
             Response ruleResponse = client.newCall(ruleRequest).execute();
 
             if(ruleResponse.code() == 201) {
+                ruleResponse.close();
+
                 Request queryRequest = new Request.Builder().get()
                         .url("https://api.twitter.com/2/tweets/search/stream?tweet.fields=lang,created_at")
                         .addHeader("Authorization", "Bearer " + BEARER_TOKEN)
