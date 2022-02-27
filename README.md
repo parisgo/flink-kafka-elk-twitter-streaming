@@ -22,9 +22,20 @@ You need to create a Twitter developer application and get bearer token from you
 
 There are 2 ways to run this application, Intellij is by far the easiest that to run it
 
-- start all services 
+- start all services
+  ![https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/01_docker.png?raw=true](https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/01_docker.png?raw=true)
 
-- run application read-from-twitter 
+- run application read-from-twitter
+  ![https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/02_reader.png?raw=true](https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/02_reader.png?raw=true)
 
 - run application write-to-es 
+ ![https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/03_writer.png?raw=true](https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/03_writer.png?raw=true)
+
+- check topic in Kafka
+ ![https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/04_kafka.png?raw=true](https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/04_kafka.png?raw=true)
+
+- show data in Kibana
+- ![https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/05_kibana_discover.png?raw=true](https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/05_kibana_discover.png?raw=true)
+- ![https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/06_kibana_dashboard.png?raw=true](https://github.com/parisgo/flink-kafka-elk-twitter-streaming/blob/main/doc/image/06_kibana_dashboard.png?raw=true)
+- 
 
